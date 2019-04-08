@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Coda:400,800");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Coda", cursive; }
@@ -330,6 +331,94 @@ footer {
   footer p {
     color: #ffffff;
     font-size: 0.8rem; }
+
+.study {
+  color: #ffffff; }
+  .study .icon {
+    font-size: 3rem;
+    color: #72dded; }
+  .study .title {
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    color: #72dded; }
+
+.benefits {
+  margin-bottom: 80px; }
+
+.graduate {
+  position: relative; }
+  .graduate h3 {
+    margin-bottom: 30px;
+    text-transform: capitalize; }
+  .graduate .cell h5 {
+    color: #72dded;
+    margin-bottom: 20px; }
+  .graduate .cell li {
+    margin-bottom: 15px; }
+  .graduate .top {
+    position: absolute;
+    top: 55px; }
+    .graduate .top.left {
+      left: 0; }
+    .graduate .top.right {
+      right: 0; }
+  .graduate .bottom {
+    color: #72dded;
+    position: absolute;
+    bottom: 0; }
+    .graduate .bottom.left {
+      left: 0; }
+    .graduate .bottom.right {
+      right: 0; }
+
+.program .box {
+  overflow: hidden;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3a3f49), to(#25282e));
+  background: linear-gradient(#3a3f49 0%, #25282e 100%);
+  padding: 20px;
+  position: relative;
+  min-height: 450px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; }
+  .program .box:hover {
+    -webkit-box-shadow: 0px 0px 10px 1px #72dded;
+            box-shadow: 0px 0px 10px 1px #72dded; }
+  .program .box:hover .bg-icon {
+    right: 0;
+    bottom: 0; }
+  .program .box:hover .bg-icon i {
+    font-size: 100rem; }
+  .program .box h3 {
+    margin-bottom: 30px; }
+  .program .box li {
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    font-weight: 300; }
+  .program .box .bg-icon {
+    position: absolute;
+    text-align: center;
+    right: -50px;
+    bottom: -50px;
+    opacity: .1; }
+    .program .box .bg-icon i {
+      font-size: 20rem;
+      color: #72dded;
+      -webkit-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out; }
+
+.how-to {
+  background-image: url(../img/002-animated-bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .how-to .bg-overlay {
+    padding: 50px 0px;
+    background: rgba(37, 40, 46, 0.8); }
+    .how-to .bg-overlay .grid-x {
+      padding: 0 50px; }
+
+.cta {
+  padding: 50px 0; }
 
 .top-bug.showcase {
   color: white; }
